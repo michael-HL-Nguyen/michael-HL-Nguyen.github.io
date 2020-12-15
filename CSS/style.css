@@ -5,7 +5,7 @@ body{
 #container{
     margin: 0 auto;
     width: 960px;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -42,11 +42,10 @@ header{
 
 #content{
     margin-top: 20px;
-    background-color: rgba(207, 212, 218, 0.473);
 }
 
 #profile{
-    background: rgba(207, 212, 218, 0.473);
+    background: rgba(20, 21, 22, 0.836);
     overflow: hidden;
     background-repeat: repeat-x;
     background-position: center bottom;
@@ -64,19 +63,20 @@ header{
     float: left;
     width: 360px;
     height: 403px;
-    padding: 18px 0 0 40px;
+    padding: 18px 0 0 30px;
+    margin-bottom: 50px;
 }
 
 .about h1{
     font-family: 'Catamaran', sans-serif;
-    color: #A7F0FF;
+    color: rgb(118, 191, 255);
     margin-top: 15px;
     margin-left: 420px;
 }
 
 .about h3{
     font-family: 'Catamaran', sans-serif;
-    color: antiquewhite;
+    color: #A7F0FF;
     margin-top: 5px;
     margin-left: 420px;
 }
@@ -86,13 +86,13 @@ header{
     margin-top: 15px;
     font-family: 'Mukta', sans-serif;
     font-weight: 400;
-    color: black;
+    color: rgb(255, 255, 255);
     margin-left: 420px;
 }
 
 .menu {
     height: 100px;
-    background-color: #868d97d7;
+    background-color: #82a7dbd7;
     position: relative;
     padding-left: 180px;
     padding-right: 180px;
@@ -127,7 +127,7 @@ header{
 }
 
 .tabs li.active a{
-     color: #195bb1c9;
+     color: #000000;
 }
 
 
