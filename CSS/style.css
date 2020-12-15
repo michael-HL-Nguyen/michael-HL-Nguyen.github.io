@@ -1,3 +1,201 @@
 body{
-    background-color: rgb(0, 95, 179);
+    background-image: url(../Images/wallpaperbetter.png);
+}
+
+#container{
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+a, a:hover{
+    text-decoration: none;
+
+}
+
+header{
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#logo {
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    font-family: 'Catamaran', sans-serif;
+    display: none;
+    overflow: hidden;
+}
+
+#logo h2{
+    color: rgb(118, 191, 255);
+    font-weight: 800;
+}
+
+#logo h4{
+    margin-top: 10px;
+    color: #A7F0FF;
+    font-weight: 600;
+}
+
+#content{
+    margin-top: 20px;
+    background-color: rgba(207, 212, 218, 0.473);
+}
+
+#profile{
+    background: rgba(207, 212, 218, 0.473);
+    overflow: hidden;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-image: url(../Images/header-shadow.png);
+}
+
+.about{
+    float: left;
+    margin-top: 30px;
+    width: 910px;
+    margin-left: 20px;
+}
+
+.about .photo-inner{
+    float: left;
+    width: 360px;
+    height: 403px;
+    padding: 18px 0 0 40px;
+}
+
+.about h1{
+    font-family: 'Catamaran', sans-serif;
+    color: #A7F0FF;
+    margin-top: 15px;
+    margin-left: 420px;
+}
+
+.about h3{
+    font-family: 'Catamaran', sans-serif;
+    color: antiquewhite;
+    margin-top: 5px;
+    margin-left: 420px;
+}
+
+.about p{
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-left: 420px;
+}
+
+.menu {
+    height: 100px;
+    background-color: #868d97d7;
+    position: relative;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.tabs{
+    height: 117px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+    margin-left: 20px;
+}
+
+.tabs li > a{
+    padding-top: 28px;
+    width: 115px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size:15px;
+    color: #130707;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.tabs li > a:hover{
+    color: #130707d2;
+}
+
+.tabs li.active a{
+     color: #195bb1c9;
+}
+
+
+.tabs li.active i{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce{
+     0%, 20%, 50%, 80%, 100% {
+         transform: translateY(0);
+     }
+
+     40%{
+         transform: translateY(-0px);
+     }
+
+     59%{transform: translateY(-10px);
+
+     }
+}
+
+.tabs li > a > i{
+    font-size: 45px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+ .tabs .tmenu {
+     float: left;
+ }
+
+
+
+
+ #publications ul, ol{
+    /*margin: 0;padding: 0;*/
+    list-style: none;
+}
+#publications li {
+    background: #37BC9B;
+    color: #fff;
+    counter-increment: myCounter;
+    margin: 0 0 30px 0;
+    padding: 13px;
+    position: relative;
+    top: 1em;
+    border-radius:  0em 2px 1em 1em;
+    padding-left: 2em;
+    font-size: 1.2em;
+    font-family: Constantia;
+}
+#publications li:before{
+    content: counter(myCounter, decimal-leading-zero);
+    display: inline-block;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.3em;
+    background-color:  #48CFAD;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute; 
+    top: 0;
+    left: -40px;
+    border-radius: 50%;
+    font-family: exo;
+}
+
+
+#publications li:nth-child(even){
+    background-color: #434A54;
 }
