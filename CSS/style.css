@@ -369,10 +369,31 @@ form label{
     padding-bottom: 20px;
 }
 
-.education, .quote, .work{
+.education, .quote, .work, .skills{
     border-bottom: 1px solid #868d97d7;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.skills{
+    margin-left: 20px;
+    padding-left: 40px;
+    color: #ffffff;
+    width: 920px;
+}
+
+.skills-period{
+    margin-bottom: -3px;
+}
+
+
+.skills-2{
+    margin-left: 180px;
+}    
+
+.skills ul li{
+    list-style-type: circle;
+    font-size: 12px;
 }
 
 .education, .work{
