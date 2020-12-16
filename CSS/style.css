@@ -301,6 +301,16 @@ header{
 
 }
 
+.social li a{
+    color: #82a7dbd7;
+    font-size: 18px;
+}
+
+
+.social li a:hover{
+    color: #82a7db6c;
+}
+
 .social ul li span{
     width: 90px;
     display: inline-block;
@@ -392,8 +402,7 @@ form label{
 }    
 
 .skills ul li{
-    list-style-type: circle;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .education, .work{
